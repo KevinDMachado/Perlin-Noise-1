@@ -40,13 +40,13 @@ function draw() {
   }
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
+//function windowResized() {
+//  resizeCanvas(windowWidth, windowHeight);
+//}
 
-function mouseReleased() {
-  noiseSeed(millis());
-}
+//function mouseReleased() {
+//  noiseSeed(millis());
+//}
 
 function naTela(vetor) {
   return vetor.x >= 0 && vetor.x <= width && vetor.y >= 0 && vetor.y <= height;
